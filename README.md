@@ -31,4 +31,9 @@ Celebrate Diwali with lights, love, and personalized wishes — all from your br
    git clone https://github.com/your-username/wish-me-diwali
    cd wish-me-diwali
    ```
-   
+
+2. Or download it as a ZIP file:
+   - Click the green Code button at the top right
+   - Select Download ZIP
+   - Extract the ZIP file
+   - Open the extracted folder 
