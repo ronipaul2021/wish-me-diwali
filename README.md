@@ -26,7 +26,9 @@ Celebrate Diwali with lights, love, and personalized wishes — all from your br
 ## 🛠 How to Run Locally
 
 1. Clone this repo:
+
    ```bash
    git clone https://github.com/your-username/wish-me-diwali
    cd wish-me-diwali
    ```
+   
