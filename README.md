@@ -19,7 +19,7 @@ Celebrate Diwali with lights, love, and personalized wishes — all from your br
 ## 🚀 Live Demo
 
 📱 View it live (hosted version):  
-[https://ronipaul2021.github.io/wish-me-diwali](https://your-username.github.io/wish-me-diwali)
+[wish-me-diwali](https://wish-me-diwalii.netlify.app/)
 
 ---
 
