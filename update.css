@@ -78,9 +78,9 @@ h1 {
   letter-spacing: 2px;
   line-height: 1.64em;
   text-align: -webkit-center;
-  padding: 60px 5px;
+  padding: 0px 5px;
   margin: 40px;
-  bottom: 80px;
+  bottom: 70px;
 }
 h1 {
   animation: animate 3.32s linear infinite;
