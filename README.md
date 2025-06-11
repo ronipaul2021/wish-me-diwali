@@ -21,8 +21,6 @@ Celebrate Diwali with lights, love, and personalized wishes — all from your br
 📱 View it live (hosted version):  
 [https://ronipaul2021.github.io/wish-me-diwali](https://your-username.github.io/wish-me-diwali)
 
-> ✨ Replace `your-username` with your GitHub username after you deploy!
-
 ---
 
 ## 🛠 How to Run Locally
