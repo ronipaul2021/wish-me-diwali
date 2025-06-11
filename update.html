@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wish Me</title>
+    <link rel="stylesheet" href="update.css" />
+  </head>
+  <body>
+    <div class="container border">
+      <h2 data-text="Have a message for you...">Have a message for you...</h2>
+      <br />
+      <input
+        type="text"
+        name="n1"
+        placeholder="Type your name"
+        id="name"
+        style="--i: 1"
+      /><br />
+      <button onclick="myFunction()" class="btn">Click me</button><br /><br />
+      <h1 id="message"></h1>
+      <h4 data-text="encode by @roni">encode by @roni</h4>
+    </div>
+    <!-- <footer>
+      <div class="footer-down">
+        Copyright &#169; www.wishme.com | All rights reserved
+      </div>
+    </footer> -->
+    <!-- Confetti library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <script>
+      function myFunction() {
+        let name = document.querySelector("#name").value.trim();
+        let message = document.querySelector("#message");
+
+        if (name) {
+          message.innerHTML =
+            ` Happy Diwali, ` +
+            name +
+            `!` +
+            `<br>` +
+            ` May your life be lit with happiness and sparkle like the stars! `;
+          message.classList.add("rainbow-text");
+
+          // 🎉 Confetti explosion
+          confetti({
+            particleCount: 150,
+            spread: 80,
+            origin: { y: 0.6 },
+          });
+        } else {
+          message.innerHTML = "";
+          message.classList.remove("rainbow-text");
+        }
+      }
+
+      const inputField = document.querySelector("#name");
+
+      inputField.addEventListener("input", () => {
+        // Capitalize first letter automatically
+        let value = inputField.value;
+        if (value.length > 0) {
+          inputField.value = value.charAt(0).toUpperCase() + value.slice(1);
+        }
+      });
+
+      inputField.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          myFunction();
+        }
+      });
+    </script>
+  </body>
+</html>
