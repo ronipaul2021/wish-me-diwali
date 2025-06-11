@@ -10,7 +10,6 @@ Celebrate Diwali with lights, love, and personalized wishes — all from your br
 
 💡 This web app:
 - Greets users with a customized **Diwali message**
-- Capitalizes the first letter of their name automatically
 - Allows pressing **Enter** or clicking a button to show the message
 - Triggers a beautiful **confetti explosion** for a festive vibe 🎉
 - Styled with glowing text, rainbow animations, and a responsive layout
