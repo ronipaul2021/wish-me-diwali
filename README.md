@@ -20,7 +20,7 @@ Celebrate Diwali with lights, love, and personalized wishes — all from your br
 ## 🚀 Live Demo
 
 📱 View it live (hosted version):  
-[https://your-username.github.io/wish-me-diwali](https://your-username.github.io/wish-me-diwali)
+[https://ronipaul2021.github.io/wish-me-diwali](https://your-username.github.io/wish-me-diwali)
 
 > ✨ Replace `your-username` with your GitHub username after you deploy!
 
