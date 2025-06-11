@@ -30,19 +30,28 @@
     </footer> -->
     <!-- Confetti library -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-
     <script>
       function myFunction() {
         let name = document.querySelector("#name").value.trim();
         let message = document.querySelector("#message");
 
+        // Array of random wishes
+        const wishes = [
+          "May your life be lit with happiness and sparkle like the stars!",
+          "Wishing you a Diwali full of laughter, love, and light!",
+          "Let this Diwali burn all your bad times and enter into good ones!",
+          "May your dreams light up brighter than a thousand diyas!",
+          "Hope this Diwali brings endless moments of joy and love!",
+          "Celebrate life, celebrate light — Happy Diwali to you!",
+          "Sending sparkles of love and joy your way this festive season!",
+          "Hope your Diwali is as sweet and bright as your smile!",
+        ];
+
+        // Pick a random message
+        const randomWish = wishes[Math.floor(Math.random() * wishes.length)];
+
         if (name) {
-          message.innerHTML =
-            ` Happy Diwali, ` +
-            name +
-            `!` +
-            `<br>` +
-            ` May your life be lit with happiness and sparkle like the stars! `;
+          message.innerHTML = `Happy Diwali, ${name}!<br>${randomWish}`;
           message.classList.add("rainbow-text");
 
           // 🎉 Confetti explosion
@@ -57,10 +66,10 @@
         }
       }
 
+      // Auto-capitalize input and enable enter key
       const inputField = document.querySelector("#name");
 
       inputField.addEventListener("input", () => {
-        // Capitalize first letter automatically
         let value = inputField.value;
         if (value.length > 0) {
           inputField.value = value.charAt(0).toUpperCase() + value.slice(1);
