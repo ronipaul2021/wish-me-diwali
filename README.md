@@ -2,7 +2,7 @@
 
 Celebrate Diwali with lights, love, and personalized wishes — all from your browser.
 
-![Screenshot](preview.png) <!-- Replace with your own image later -->
+![Screenshot](Preview.png) <!-- Replace with your own image later -->
 
 ---
 
