@@ -29,7 +29,7 @@ Celebrate Diwali with lights, love, and personalized wishes — all from your br
 1. Clone this repo:
 
    ```bash
-   git clone https://github.com/your-username/wish-me-diwali
+   git clone https://github.com/ronipaul2021/wish-me-diwali
    cd wish-me-diwali
    ```
 
